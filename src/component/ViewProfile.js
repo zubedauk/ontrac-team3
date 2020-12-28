@@ -43,9 +43,9 @@ class ViewProfile extends React.Component {
             <List.Item
               key={item.id}
               actions={[
-                <a onClick={this.showDrawer} key={`a-${item.id}`}>
+                <button onClick={this.showDrawer} key={`a-${item.id}`}>
                   View Profile
-                </a>,
+                </button>,
               ]}
             >
               <List.Item.Meta

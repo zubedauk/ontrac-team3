@@ -1,9 +1,7 @@
-import React,{useState} from 'react'
+import React from 'react'
 
 const Header=(prop)=>{
-    const [searchLocation,setSearchLocation]=useState("");
-    const [searchClass,setSearchClass]=useState("");
-    const [searchName,setSearchName]=useState("");
+   
     
     
 //////////////////this function is used for search against location class and terms(name,buddy)

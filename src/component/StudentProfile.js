@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Table, Progress, Input } from "antd";
+import { Table, Progress } from "antd";
 import ViewProfile from "./ViewProfile"
 import {InputForm} from "./InputForm"
 
@@ -13,7 +13,7 @@ const StudentProfile = ({ id, setShowProfile }) => {
       .then((data) => {
         setStudentProfile([data]);
       });
-  }, []);
+  }, [id]);
   const columns = [
     {
       title: "Student Id",
