@@ -1,0 +1,30 @@
+[
+  {
+	"student_id": 1,
+	"name": "student 1",
+	"assignment":  5,
+	"attendance": 98,
+	"email": "Student1@gmail.com"
+  },
+  {
+	"student_id": 2,
+	"name": "Student 2",
+	"assignment": 8, 
+	"attendance": 99,
+	"email": "Student2@gmail.com"
+  },
+  {
+	"student_id": 3,
+	"name": "Student 3",
+	"assignment": 7,
+	"attendance": 89,
+	"email": "Student3@gmail.com"
+  },
+  {
+	"student_id": 4,
+	"name": "student 4",
+	"assignment": 10,
+	"attendance": 100,
+	"email": "Student4@gmail.com"
+  }
+]

@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+}
+#home{
+    font-size: 1.4rem;
+}
+#home:hover{
+    color:red;
+}
+#container{
+   
+    width: 90vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+
+}
+#logo{
+    width:20rem;
+    height:7rem;
+
+}
+#login{
+    widows: 10rem;
+    height:5rem;
+    font-size: medium;
+    font-weight: bold;
+}
+#login img{
+    widows: 10rem;
+    height:5rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#search li a:hover{
+    
+}
+#search li a{
+    color:rgb(24,24,24);
+   
+    font-weight: bold;
+}
+#search li{
+    font-size: 1.4rem;
+}
+.nav-item select option{
+    font-size: 1.4rem;
+}
+#location{
+   
+    width:11rem;
+    height:2.5rem;
+}
+#class{
+   
+    width:7rem;
+    height:2.5rem;
+}
+#search{
+   
+    width:100%;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btnSize{
+    width:10rem;
+    height:4rem;
+}
+#nav a:hover{
+     background-color: red; 
+    color: white;
+}
+#nav a{
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-color: red;
+    color:rgb(24,24,24);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav{
+    margin-top:2rem;
+    margin-left: 1rem;
+    width:60%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(25, 0, 255); 
+     
+}
+#nav-search{
+    /* background-color: darkgreen; */
+    width:78%;
+    height:11rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+#header{
+    background-color:#f8f9fa;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#main{
+    /* background-color: aqua; */
+    background-color:#f8f9fa;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+
+}
+#edit{
+    box-shadow: 5px 5px 10px;
+}
+#newEntry{
+    box-shadow: 5px 5px 10px;
+}
+#frmAdd{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+}
+#frmAdd button{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#footer a{
+    font-size: 2rem;
+}
+#footer{
+    background-color:#f8f9fa;
+   
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
